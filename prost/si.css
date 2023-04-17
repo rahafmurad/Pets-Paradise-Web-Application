@@ -1,0 +1,228 @@
+
+
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Sign in</title>
+    <link rel="stylesheet" href="Style/Project_1.CSS" type="text/CSS">
+    
+    </head>
+
+       <script>
+            function checkPassword(myform) {
+             
+                password1 = myform.psw.value;
+  
+                // If password not entered
+                if (password1 == '')
+                    alert ("Please enter Password!");
+                else{
+                    alert("Welcome <3")
+                    return true;
+                }
+            }
+        </script>
+
+    <body> 
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+      <form name="myform" onSubmit = "return checkPassword(this)">
+
+        <label for="email" > &star; Email:</label>
+        <input class="email" name= "email" type="email" name="email" placeholder="yourname@example.com" required /><br><br>
+
+        <label for="psw" >&star; Password:</label>
+        <input  class="password" type="password"  id="psw"  name="psw" /><br><br>
+   
+        <button class="button button5" > Sign In</button>
+
+      </form>
+
+    </body> 
+
+</html>
+
+
+
+
+
+
+
+//////SERVICES///////////
+<!DOCTYPE html>
+  <html>
+   <head>
+  <title>Services</title>
+      <link rel="stylesheet" href="Pro/project_2.CSS" type="text/CSS">
+   </head>
+
+    <body> 
+          
+    <br><br><br><br><br><br><br><br>
+      <h2> &star; SERVICES &star;<h2>
+<a class=" button button4" href="C:\Users\afrah\Downloads\IAProjSingUp.html"target="_blank"> Animal pet sitter services</a><br><br>
+
+<a class=" button button4" href="http://uqu.edu.sa/"target="_blank"> Health care services</a>  <br><br>
+
+<a class=" button button4" href="http://uqu.edu.sa/"target="_blank"> Adoption services</a>  <br><br>
+  
+<a class=" button button4" href="http://uqu.edu.sa/"target="_blank" > Animal care services</a>  <br><br>
+
+<a class=" button button4" href="http://uqu.edu.sa/"target="_blank"> Frequently asked questions</a>  <br><br>
+
+
+  </body> 
+
+</html>
+
+
+
+
+/////CSS//////
+
+/*.Header{
+  width: 95px;
+  height: 180px;
+}*/
+
+/* headings properties */
+h1, h2, h3, h4, h5, h6{
+  position: relative;
+  font-size: 23px;
+  font-family: Bradley Hand, cursive;
+  text-align: center;
+  color: rgb(139, 118, 67);
+}
+
+/* paragraph properties */
+p{
+  font-size: 15px;
+  position: relative;
+  font-family: Bradley Hand, cursive;
+  text-align: center;
+  color: rgb(130, 100, 60);
+  white-space: pre-line;
+}
+
+/* set background for all pages */
+body{
+  border-radius: 25px;
+ background-image: url("C:/Users/afrah/Downloads/back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /*margin: 0;
+  position: relative;*/
+}
+/* set background image just for home page 
+.homePage{
+  border-radius: 25px;
+  background-image: url("C:/Users/refan/Downloads/IMG-2080.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  position: relative;
+}*/
+
+/* set background just for the second page "Sing Up" 
+.singUp{
+  background-color: #e8c1a0;
+}*/
+
+/* button properties */
+.button {
+  font-family:  Bradley Hand, cursive;
+  border: none;
+  background-color: rgb(228, 218, 195);
+  padding: 8px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 28px;
+  width: 120px;
+  height: 37px;
+}
+
+/* On mouse-over */
+.button:hover {background: #ededeb;}
+
+.button1 {
+  color: rgb(139, 118, 67);margin-left: -40px;
+  margin-right: 20px;}
+
+.button2 {
+  color: rgb(139, 118, 67);margin-left: 15px;
+  margin-right: 20px;}
+
+.button3 {
+  color: rgb(139, 118, 67); margin-left: 15px;
+  margin-right: 20px;}
+.button4{
+  color: rgb(139, 118, 67);margin-left: 620px;
+  margin-right: 740px;
+    width: 200px;
+  height: 37px;
+}
+.button5{
+color: rgb(139, 118, 67);margin-left: 118px;
+  margin-right: 80px;
+
+}
+
+input{
+  text-align: center;
+  font-family: Bradley Hand, cursive;
+  border: none;
+  width:  190px;
+  height: 35px;
+  border-radius: 28px;
+  background-color: rgb(228, 218, 195);
+  color: #70706e;
+}
+.Name{
+  margin-right: 1%;
+}
+
+.Email{
+  margin-right: 1%;
+}
+
+.password{
+  margin-right: 3%;
+}
+
+form{
+  text-align: center;
+  font-family: Bradley Hand, cursive;
+  color: rgb(139, 118, 67);
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

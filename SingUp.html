@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="singUp">
+<head>
+		<!-- External style sheet linking-->
+	<link rel="stylesheet" type="text/css" href="prost/IA.css">
+
+	<title>
+		Sing Up 
+	</title>
+</head>
+<script>  
+function validateform(){  
+var name = document.singUpForm.Name.value;  
+var password = document.singUpForm.password.value;  
+  
+if (name == null || name == ""){  
+  alert("Please enter your name!");  
+  return false;  
+}
+//preventing the user to use less than 8 characters 
+else if(password.length < 8 ){  
+  alert("Password must contains at least 8 characters!")  
+  return false;  
+  } 
+}  
+</script> 
+
+<body>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<form name="singUpForm" method="post" onsubmit="return validateform()" >
+
+		<label for="Name"> &star; Name:</label>
+		<input class="Name" type="text" name="Name" id="Name" >
+		<br><br>
+		<label for="Email"> &star; Email:</label>
+		<input class="Email" type="email" name="Email" id="Email" placeholder="yourname@example.com" required>
+		<br><br>
+		<label for="password"> &star; Password:</label>
+		<input class="password" type="password" name="password" id="password" >
+
+
+ 
+ <br> <br> <br> <br>
+
+<div style = "position:relative; left:30px; bottom: 40px;">
+	<a href="file:///C:/Users/roro3/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/level%207/lap%20of%20application%20network/laps/projCSS/HomePage.html">
+	<button  class="button button3">Sign Up</button>
+	</a>
+</div>
+</form>
+<div class="Header" id="Header"></div>
+
+
+</body>
+</html>

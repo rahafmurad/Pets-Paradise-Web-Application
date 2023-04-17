@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+  <html>
+   <head>
+      <title>Sign in</title>
+    <link rel="stylesheet" href="prost/si.CSS" type="text/CSS">
+    <style>
+        body {
+  background-image: url("https://img.freepik.com/free-vector/frame-with-dogs-vector-white-background_53876-127700.jpg?w=2000&t=st=1666304863~exp=1666305463~hmac=91c5e166d6155d03a160ac2a07704878101915dadc4472cb3e47e5d107754285");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    </style>
+</head>
+
+<script>
+          
+            // Function to check Whether both passwords
+            // is same or not.
+            function checkPassword(myform) {
+                em = myform.email.value;
+                password1 = myform.psw.value;
+  
+                // If password not entered
+                if (password1 == '')
+                    alert ("Please enter Password!");
+                      
+                
+  
+                // If same return True.
+                else{
+                    alert("Welcome <3")
+                    return true;
+                }
+            }
+        </script>
+    
+
+         <body> 
+
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+      <form name="myform" onSubmit = "return checkPassword(this)">
+
+        <label for="email" > &star; Email:</label>
+
+        <input class="email" name= "email" type="email" name="email" placeholder="yourname@example.com" required /><br><br>
+
+        <label for="psw" >&star; Password:</label>
+        <input  class="password" type="password"  id="psw"  name="psw" /><br><br>
+            <!--    <label for="psw" >&star; Confirm Password:</label>
+        <input  class="password" type="password"  id="ver" name="con" /><br><br>--> 
+
+    <a href="file:///C:/Users/roro3/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/level%207/lap%20of%20application%20network/laps/projCSS/Services.html">  <button class="button button5" > Sign In</button></a>
+
+      </form>
+
+     </body> 
+
+</html>
+
+
+
+
+
+
+
+

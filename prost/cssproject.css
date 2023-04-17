@@ -1,0 +1,14 @@
+h1{
+   background-color: orange;
+   color: white;
+ 
+}
+
+
+img{
+   border: none;
+   padding: .5em 1.15em .1em 1.4em;
+   background-color:none ;
+   margin-top: .4125em;
+   cursor: pointer;
+   float: left;

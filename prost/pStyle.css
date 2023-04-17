@@ -1,0 +1,82 @@
+/* headings properties */
+h1, h2, h3, h4, h5, h6{
+  position: relative;
+  font-size: 23px;
+  font-family: Bradley Hand, cursive;
+  text-align: center;
+  color: rgb(139, 118, 67);
+}
+
+/* paragraph properties */
+p{
+  font-size: 15px;
+  position: relative;
+  font-family: Bradley Hand, cursive;
+  text-align: center;
+  color: rgb(130, 100, 60);
+}
+
+
+/* set background image just for home page 
+.homePage{
+  border-radius: 25px;
+  background-image: url("C:/Users/refan/Downloads/IMG-2080.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  position: relative;
+}*/
+
+/* set background just for the second page "Sing Up" 
+.singUp{
+  background-color: #e8c1a0;
+}*/
+
+/* button properties */
+.button {
+  font-family:  Bradley Hand, cursive;
+  border: none;
+  background-color: rgb(228, 218, 195);
+  padding: 8px 70px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+ border-radius: 28px;
+  width: 120px;
+  height: 40px;
+}
+
+/* On mouse-over */
+.button:hover {background: #ededeb;}
+
+.button1 {
+  color: rgb(139, 118, 67);margin-left: -30px;
+  margin-right: 10px;}
+
+.button2 {
+  color: rgb(139, 118, 67);margin-left: 15px;
+  margin-right: 10px;}
+
+.button3 {
+  color: rgb(139, 118, 67); margin-left: 15px;
+  margin-right: 10px;}
+
+
+input{
+  text-align: center;
+  font-family: Bradley Hand, cursive;
+  border: none;
+  width:  190px;
+  height: 35px;
+ border-radius: 28px;
+  background-color: rgb(228, 218, 195);
+  color: #70706e;
+}
+
+form{
+  margin-left: 30%;
+  text-align: left;
+  font-family: Bradley Hand, cursive;
+  color: rgb(139, 118, 67);
+  position: relative;
+}
